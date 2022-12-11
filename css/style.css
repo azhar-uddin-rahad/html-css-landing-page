@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+   
+    
+}
+
+.container{
+    width: 1320px;
+    margin:auto;
+ 
+}
+:root{
+    --primary-color:#FF5538;
+    --text-color:#29313D;
+    --primary-text: 'Open Sans', sans-serif;
+    --secondary-text: 'Poppins', sans-serif;
+    --reare-text: 'Nunito',sans-serif;
+
+}
+nav{
+    padding-top: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.parents_nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 20%;
+}
+.navbarminu ul {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.navbarminu ul li a{
+    font-family: var(--primary-text);
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    color: var(--text-color);
+    margin: 0 24px;
+}
+.navbarminu ul li a i{
+    margin-left: 8px;
+}
+.button button{
+    background-color: var(--primary-color);
+    padding: 15px 28px;
+    border: none;
+    border-radius: 15px;
+}
+.button button{
+    padding: 14px 28px;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 18px;
+    font-family: var(--rare-text);
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+}
+/* banner part css */
+#banner{
+    background: url(../Image/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 400px;
+    padding-bottom: 400px;
+}
+
+.banner_content{
+    text-align: center;
+}
+.banner_content h1{
+  font-family: var(--secondary-text);
+  font-weight: 700;
+  padding: 0 20%;
+  font-size: 64px;
+
+}
+.banner_content p{
+    padding: 0 20%;
+}
