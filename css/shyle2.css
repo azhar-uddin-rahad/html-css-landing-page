@@ -69,14 +69,14 @@ nav {
   color: white;
 }
 .btn2 {
-    border: 2px solid var(--main-color);
-    border-radius: 15px;
-    color: black;
-    padding: 14px 28px;
-    font-size: 16px;
-    cursor: pointer;
-    background: transparent;
-    overflow:hidden;
+  border: 2px solid var(--main-color);
+  border-radius: 15px;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  background: transparent;
+  overflow: hidden;
 }
 
 .log {
@@ -107,66 +107,59 @@ nav {
   margin-left: 8px;
 }
 
- .varticalNab{
-    position: absolute;
-    transform: rotate(-90deg) translateX(-100%) ;
-    transform-origin: left top;
-    width: 100vh;
-    
+.varticalNab {
+  position: absolute;
+  transform: rotate(-90deg) translateX(-100%);
+  transform-origin: left top;
+  width: 100vh;
 }
-.menu{
-    display: flex;
-  
+.menu {
+  display: flex;
 }
-.nav_list{
-    display: flex;
-    flex-direction: row-reverse;
-    margin: -2px auto 0 auto;
+.nav_list {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: -2px auto 0 auto;
 }
-.nav_link{
-    height: 100%;
-    line-height: 100px;
-    color: blue;
-    font-weight: 600;
-    margin: 20px;
-    font-family: var(--secondary-text);
-    color: black;
-} 
-.circle{
-    width: 130px;
-    height: 130px;
-    position: absolute;
-    top: 100px;
-    left: 45%;
-    transform: translateX(-50%);
-    border-radius: 50%;
-   border: 2px solid var(--main-color);
-    z-index: 2;
-    animation: round 3s linear infinite;
-
+.nav_link {
+  height: 100%;
+  line-height: 100px;
+  color: blue;
+  font-weight: 600;
+  margin: 20px;
+  font-family: var(--secondary-text);
+  color: black;
+}
+.circle {
+  width: 130px;
+  height: 130px;
+  position: absolute;
+  top: 100px;
+  left: 45%;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  border: 2px solid var(--main-color);
+  z-index: 2;
+  animation: round 3s linear infinite;
 }
 @keyframes round {
-    0%{
-        transform: rotate(0deg)
-    }
-   100%{
-        transform: rotate(360deg)
-    }
-    
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
-.circle::after{
-    content: '';
-    position: absolute;
-    top: 11px;
-    left: 0;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background-color: var(--main-color);
-   
-
+.circle::after {
+  content: "";
+  position: absolute;
+  top: 11px;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: var(--main-color);
 }
-
 
 #banner {
   background: url(../Image/banner.png);
@@ -176,7 +169,7 @@ nav {
   position: relative;
   padding-top: 400px;
   padding-bottom: 400px;
- 
+
   z-index: -1;
 }
 
@@ -186,28 +179,23 @@ nav {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  
- 
 }
 .banner-conternt h1 {
-    font-family: var(--primary-text);
-    font-weight: 700;
-    font-size: 64px;
-    color: var(--header-color);
-    line-height: 50px;
-   
+  font-family: var(--primary-text);
+  font-weight: 700;
+  font-size: 64px;
+  color: var(--header-color);
+  line-height: 50px;
 }
 .banner-conternt p {
-    padding: 30px;
-    font-family: var(--rearer-text);
-    font-weight: 400;
-    font-size: 18px;
-    color: var(--secondary-text);
-    line-height: 30px;
-  
-   
+  padding: 30px;
+  font-family: var(--rearer-text);
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--secondary-text);
+  line-height: 30px;
 }
-.cardSection{
+.cardSection {
   margin-top: -180px;
   margin-bottom: 100px;
 }
@@ -215,26 +203,54 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
 
 .flex-container .card {
   margin-right: 30px;
-  background: #FFFFFF;
+  background: #ffffff;
   padding: 40px 46px 40px 30px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.flex-container .text h4{
+.flex-container .text h4 {
   font-family: var(--secondary-text);
   padding: 10px 0;
   font-weight: 600;
   font-size: 28px;
-
 }
-.flex-container .text p{
+.flex-container .text p {
   font-family: var(--secondary-text);
   font-weight: 400;
   font-size: 18px;
   line-height: 200%;
+}
+
+.digitalHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.digitalHeader .text p {
+  text-transform: capitalize;
+  color: var(--main-color);
+  font-family: var(--secondary-text);
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.digitalHeader .text h3 {
+  text-transform: capitalize;
+  color: var(--header-color);
+  font-family: var(--secondary-text);
+  width: 500px;
+  line-height: 140%;
+  font-weight: 600;
+  font-size: 48px;
+}
+
+.digitalHeader .icon i{
+  color: #C087EE;
+  width: 15px;
+
 
 }
