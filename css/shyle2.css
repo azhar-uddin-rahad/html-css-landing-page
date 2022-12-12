@@ -444,7 +444,6 @@ nav {
 }
 .globalCompaniesSection {
   margin-bottom: 100px;
- 
 }
 
 .globalCompaniesSection .globalCompaniesText h3 {
@@ -459,74 +458,70 @@ nav {
   margin-bottom: 30px;
 }
 
-.globalCompaniesSection .companies{
+.globalCompaniesSection .companies {
   display: flex;
   gap: 20px;
   justify-content: space-between;
-  
 }
 
-.globalCompaniesSection .companies .logos
-{
-text-align: center;
-padding-top: 100px;
-width: 210px;
-height: 100px;
-left: 495px;
-top: 4507px;
-background: #FDF9F8;
-
+.globalCompaniesSection .companies .logos {
+  text-align: center;
+  padding-top: 100px;
+  width: 210px;
+  height: 100px;
+  left: 495px;
+  top: 4507px;
+  background: #fdf9f8;
 }
 
-.ourCustomerSay{
+.ourCustomerSay {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10%;
   padding: 20px;
   background: var(--background-color);
+  margin-bottom: 100px;
 }
 
-.ourCustomerSay .left{
+.ourCustomerSay .left {
   width: 40%;
 }
-.ourCustomerSay .left .header h3{
-font-family: var(--secondary-text);
-color: var(--header-color);
-font-weight: 600;
-font-size: 48px;
-line-height: 140%;
-  
+.ourCustomerSay .left .header h3 {
+  font-family: var(--secondary-text);
+  color: var(--header-color);
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 140%;
 }
 
-.ourCustomerSay .right{
+.ourCustomerSay .right {
   width: 40%;
 }
-.ourCustomerSay .right img{
+.ourCustomerSay .right img {
   width: 100%;
   border-radius: 18px;
 }
-.ourCustomerSay .left .leftImg{
+.ourCustomerSay .left .leftImg {
   display: flex;
   gap: 5%;
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.ourCustomerSay .left .leftImg .leftflex{
+.ourCustomerSay .left .leftImg .leftflex {
   width: 20%;
- 
 }
-.ourCustomerSay .left .leftImg .leftflex img{
+.ourCustomerSay .left .leftImg .leftflex img {
   width: 100%;
   height: 100px;
-  border-radius: 15px ;
+  border-radius: 15px;
   object-fit: cover;
 }
-.leftSmallText p{
-font-family: var(--rearer-text);
-font-weight: 400;
-font-size: 20px;
-line-height: 180%;
+.leftSmallText p {
+  font-family: var(--rearer-text);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 180%;
 }
 .btn-text {
   margin-top: 20px;
@@ -535,21 +530,98 @@ line-height: 180%;
   gap: 20px;
   align-items: center;
 }
-.btn-text h5{
-font-family: var(--primary-text);
-font-weight: 600;
-font-size: 36px;
-line-height: 180%;
+.btn-text h5 {
+  font-family: var(--primary-text);
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 180%;
 }
-.btn-text .icon #icon1{
+.btn-text .icon #icon1 {
   padding: 20px;
   background-color: var(--background-color2);
   border-radius: 5px;
   margin-right: 5px;
 }
-.btn-text .icon #icon2{
+.btn-text .icon #icon2 {
   padding: 20px;
   background-color: var(--main-color);
   border-radius: 5px;
+}
+.gotProject{
+ 
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.border {
+  border-bottom: 2px solid var(--smallText-color);
+  padding-bottom: 40px;
+}
+.pTap {
+  font-family: var(--rearer-text);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 180%;
+}
 
+.footerParents{
+  display: flex;
+  justify-content: space-between;
+  padding:100px 0 100px 0;
+  gap: 20px;
+  background: rgba(255, 255, 255, 0.01);
+}
+.footerParents .footerlogos{
+  width: 35%;
+}
+.footerParents .features{
+  width: 20%;
+}
+.footerParents .products{
+  width: 20%;
+}
+.footerParents .support{
+  width: 20%;
+}
+.footerParents .footerlogos .footerText p{
+  padding-top: 20px;
+font-family: var(--rearer-text);
+font-weight: 400;
+font-size: 18px;
+line-height: 180%;
+ 
+}
+.footerParents .features h4,
+.footerParents .products h4,
+.footerParents .support h4{
+font-family: var(--primary-text);
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+margin-bottom: 20px;
+}
+
+.footerParents .features ul li a,
+.footerParents .products ul li a,
+.footerParents .support ul li a{
+font-family: var(--rearer-text);
+color: var(--smallText-color);
+font-weight: 600;
+font-size: 20px;
+line-height: 200%;
+}
+.cp-text{
+  display: flex;
+  justify-content: space-between;
+}
+
+.cp-text a {
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+text-transform: capitalize;
+color: #29313D;
+}
+.cp-text .cp-a a{
+  padding-right: 20px;
 }
